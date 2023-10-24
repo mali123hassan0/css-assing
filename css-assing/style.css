@@ -1,0 +1,45 @@
+/* universal selector*/
+/* *{ */
+    color: red;
+} 
+
+
+/* type selector*/
+/* h1{ */
+    color: blue;
+}
+/* multiple */
+/* h1,span{ */
+    color: brown;
+}
+
+/* class selector */
+/* .wanted{ */
+    color: blue;
+}
+
+/* id selector */
+/* #good{ */
+    color: turquoise;
+}
+
+/* child selector */
+/* span > p{ */
+    color: blue;
+}
+
+/* dencendent selector */
+ div h2{
+    color: blue;
+}
+
+/* ADJECENT SIBLING SELECTOR */
+h1+p{
+    color: tomato;
+}
+
+
+/* GENERALSIBLING SELECTOR */
+h1~p{
+    color: chocolate;
+}
